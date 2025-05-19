@@ -1,0 +1,68 @@
+# Sistema de Reservas - Hotel Amankay
+
+## Descripción General
+
+El **Sistema de Reservas del Hotel Amankay** es una aplicación web moderna diseñada para digitalizar y optimizar el proceso de reservas de habitaciones en el hotel. Tradicionalmente, la gestión de reservas se realizaba de manera manual o con herramientas funcionales básicas (como agendas físicas, hojas de cálculo o llamadas telefónicas), lo que podía generar errores, duplicidad de reservas y dificultades en el seguimiento de la disponibilidad.
+
+Con este sistema, el Hotel Amankay da un salto hacia la transformación digital, permitiendo a los usuarios y al personal del hotel gestionar reservas de manera eficiente, rápida y segura desde cualquier dispositivo.
+
+---
+
+## Características Principales
+
+- **Interfaz Moderna y Responsiva:**  
+  El sistema utiliza tecnologías web actuales como HTML5, Tailwind CSS y JavaScript, ofreciendo una experiencia visual atractiva y adaptada a cualquier dispositivo (PC, tablet, móvil).
+
+- **Carrusel de Habitaciones:**  
+  Los visitantes pueden visualizar las diferentes habitaciones disponibles mediante un carrusel interactivo, con imágenes y descripciones detalladas de cada tipo de habitación.
+
+- **Formulario de Reserva:**  
+  Permite seleccionar fechas de entrada y salida, facilitando la consulta de disponibilidad y la gestión de reservas.
+
+- **Inicio de Sesión Seguro:**  
+  Los usuarios pueden iniciar sesión para gestionar sus reservas, y el personal del hotel puede acceder a funciones administrativas.
+
+- **Footer Informativo:**  
+  Incluye información de contacto, dirección y derechos reservados del hotel.
+
+---
+
+## ¿Por qué digitalizar el sistema de reservas?
+
+Anteriormente, el Hotel Amankay gestionaba sus reservas con herramientas funcionales tradicionales, lo que presentaba varios desafíos:
+
+- **Riesgo de errores humanos** (por ejemplo, reservas duplicadas o pérdidas de información).
+- **Dificultad para consultar disponibilidad** en tiempo real.
+- **Falta de acceso remoto** para clientes y personal.
+- **Procesos lentos** y poco eficientes.
+
+Con este sistema web, el hotel puede:
+
+- Mejorar la experiencia del cliente.
+- Reducir errores y tiempos de gestión.
+- Llevar un control centralizado y seguro de todas las reservas.
+- Facilitar la administración y el seguimiento de la ocupación hotelera.
+
+---
+
+## Tecnologías Utilizadas
+
+- **HTML5**  
+- **Tailwind CSS**  
+- **JavaScript**  
+- **Imágenes y recursos propios del hotel**
+
+---
+
+## Estructura del Proyecto
+
+- `index.html` – Página principal con carrusel de habitaciones y formulario de reserva.
+- `Iniciosesion.html` – Pantalla de inicio de sesión para usuarios y personal.
+- `js/script.js` – Lógica del carrusel de habitaciones.
+- `img/` – Carpeta de imágenes del hotel y recursos gráficos.
+
+---
+
+## Créditos
+
+Desarrollado para el Hotel Amankay, modernizando la gestión de reservas y mejorando la experiencia tanto para los huéspedes como para el equipo administrativo.
