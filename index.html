@@ -42,41 +42,41 @@
 
     <!-- Carrusel de habitaciones -->
     <section class="flex flex-col items-center py-10 bg-amber-100">
-      <div class="relative flex items-center justify-center w-full max-w-4xl bg-white rounded-2xl shadow-xl px-2 py-8 md:px-8 md:py-12">
+      <div class="relative flex items-center justify-center w-full max-w-5xl bg-white rounded-2xl shadow-xl px-2 py-8 md:px-12 md:py-16">
         <!-- Botón anterior -->
-        <button class="carrusel-btn prev absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-[#e9c68d] text-yellow-900 text-3xl rounded-full w-12 h-12 flex items-center justify-center shadow hover:bg-yellow-400 transition z-10" aria-label="Anterior">&#10094;</button>
+        <button class="carrusel-btn prev absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-[#e9c68d] text-yellow-900 text-4xl rounded-full w-14 h-14 flex items-center justify-center shadow hover:bg-yellow-400 transition z-10" aria-label="Anterior">&#10094;</button>
         
         <!-- Slides -->
-        <div class="carrusel-slide activo flex flex-col items-center w-full transition-opacity duration-500">
-          <img src="img/habitacion.jpg" alt="Habitación Doble" class="w-full max-w-md rounded-xl shadow-lg border-4 border-[#e9c68d] mb-6 object-cover" />
-          <div class="bg-white/90 rounded-lg px-6 py-4 text-center max-w-md shadow">
-            <h3 class="text-xl font-bold text-yellow-900 mb-2">Habitación Doble</h3>
+        <div class="carrusel-slide activo flex flex-col items-center w-full transition-opacity duration-700 ease-in-out">
+          <img src="img/habitacion.jpg" alt="Habitación Doble" class="w-full max-w-xl rounded-2xl shadow-lg border-4 border-[#e9c68d] mb-8 object-cover" />
+          <div class="bg-white/90 rounded-xl px-8 py-6 text-center max-w-xl shadow">
+            <h3 class="text-2xl font-bold text-yellow-900 mb-3">Habitación Doble</h3>
             <p class="text-yellow-800 text-lg">Espaciosa, con dos camas, baño privado y vista al jardín. Perfecta para amigos o compañeros de viaje.</p>
           </div>
         </div>
-        <div class="carrusel-slide flex flex-col items-center w-full transition-opacity duration-500 opacity-0 pointer-events-none">
-          <img src="img/habitacion2.jpg" alt="Suite Familiar" class="w-full max-w-md rounded-xl shadow-lg border-4 border-[#e9c68d] mb-6 object-cover" />
-          <div class="bg-white/90 rounded-lg px-6 py-4 text-center max-w-md shadow">
-            <h3 class="text-xl font-bold text-yellow-900 mb-2">Suite Familiar</h3>
+        <div class="carrusel-slide flex flex-col items-center w-full transition-opacity duration-700 ease-in-out opacity-0 pointer-events-none">
+          <img src="img/habitacion2.jpg" alt="Suite Familiar" class="w-full max-w-xl rounded-2xl shadow-lg border-4 border-[#e9c68d] mb-8 object-cover" />
+          <div class="bg-white/90 rounded-xl px-8 py-6 text-center max-w-xl shadow">
+            <h3 class="text-2xl font-bold text-yellow-900 mb-3">Suite Familiar</h3>
             <p class="text-yellow-800 text-lg">Ideal para familias, con sala de estar, balcón privado y todas las comodidades para grandes y chicos.</p>
           </div>
         </div>
-        <div class="carrusel-slide flex flex-col items-center w-full transition-opacity duration-500 opacity-0 pointer-events-none">
-          <img src="img/habitacion3.jpg" alt="Habitación Matrimonial" class="w-full max-w-md rounded-xl shadow-lg border-4 border-[#e9c68d] mb-6 object-cover" />
-          <div class="bg-white/90 rounded-lg px-6 py-4 text-center max-w-md shadow">
-            <h3 class="text-xl font-bold text-yellow-900 mb-2">Habitación Matrimonial</h3>
+        <div class="carrusel-slide flex flex-col items-center w-full transition-opacity duration-700 ease-in-out opacity-0 pointer-events-none">
+          <img src="img/habitacion3.jpg" alt="Habitación Matrimonial" class="w-full max-w-xl rounded-2xl shadow-lg border-4 border-[#e9c68d] mb-8 object-cover" />
+          <div class="bg-white/90 rounded-xl px-8 py-6 text-center max-w-xl shadow">
+            <h3 class="text-2xl font-bold text-yellow-900 mb-3">Habitación Matrimonial</h3>
             <p class="text-yellow-800 text-lg">Ambiente romántico, cama king size, jacuzzi y detalles pensados para parejas.</p>
           </div>
         </div>
 
         <!-- Botón siguiente -->
-        <button class="carrusel-btn next absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-[#e9c68d] text-yellow-900 text-3xl rounded-full w-12 h-12 flex items-center justify-center shadow hover:bg-yellow-400 transition z-10" aria-label="Siguiente">&#10095;</button>
+        <button class="carrusel-btn next absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-[#e9c68d] text-yellow-900 text-4xl rounded-full w-14 h-14 flex items-center justify-center shadow hover:bg-yellow-400 transition z-10" aria-label="Siguiente">&#10095;</button>
         
         <!-- Indicadores -->
-        <div class="absolute bottom-4 left-0 w-full flex justify-center gap-3 z-20">
-          <span class="indicador inline-block w-4 h-4 rounded-full bg-[#e9c68d] border-2 border-white opacity-100"></span>
-          <span class="indicador inline-block w-4 h-4 rounded-full bg-[#e9c68d] border-2 border-white opacity-50"></span>
-          <span class="indicador inline-block w-4 h-4 rounded-full bg-[#e9c68d] border-2 border-white opacity-50"></span>
+        <div class="absolute bottom-6 left-0 w-full flex justify-center gap-4 z-20">
+          <span class="indicador inline-block w-5 h-5 rounded-full bg-[#e9c68d] border-2 border-white opacity-100"></span>
+          <span class="indicador inline-block w-5 h-5 rounded-full bg-[#e9c68d] border-2 border-white opacity-50"></span>
+          <span class="indicador inline-block w-5 h-5 rounded-full bg-[#e9c68d] border-2 border-white opacity-50"></span>
         </div>
       </div>
     </section>
