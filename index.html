@@ -36,7 +36,7 @@
           <h2 class="text-lg font-semibold text-yellow-900 mb-2">Fecha Salida</h2>
           <input type="date" class="px-3 py-2 rounded-md border border-[#e9c68d] focus:border-yellow-700 focus:outline-none text-yellow-900 bg-white w-full" />
         </div>
-        <button class="bg-yellow-700 text-white font-bold px-6 py-3 rounded-lg mt-4 md:mt-8 md:ml-4 hover:bg-[#e9c68d] hover:text-yellow-900 hover:border-[#e9c68d] border-2 border-yellow-700 transition w-full md:w-auto">Buscar</button>
+        <button id="btnBuscar" class="bg-yellow-700 text-white font-bold px-6 py-3 rounded-lg mt-4 md:mt-8 md:ml-4 hover:bg-[#e9c68d] hover:text-yellow-900 hover:border-[#e9c68d] border-2 border-yellow-700 transition w-full md:w-auto">Buscar</button>
       </div>
     </section>
 
@@ -80,6 +80,76 @@
         </div>
       </div>
     </section>
+
+    <!-- Sección de bienvenida -->
+    <section class="flex flex-col md:flex-row items-center justify-center gap-8 py-10 px-4 bg-white/80 rounded-2xl shadow-lg max-w-5xl mx-auto mt-8">
+      <img src="img/cartel.jpg" alt="Fachada Hotel Amankay" class="w-full md:w-1/2 rounded-2xl shadow-lg object-cover h-64 md:h-80" />
+      <div class="flex flex-col items-center md:items-start">
+        <h2 class="text-3xl font-bold text-yellow-900 mb-4">¡Bienvenido a Hotel Amankay!</h2>
+        <p class="text-yellow-800 text-lg mb-2 max-w-xl">Disfruta de una experiencia única en el corazón de Cusco. Habitaciones cómodas, atención personalizada y todos los servicios para que tu estadía sea inolvidable.</p>
+        <a href="#catalogo" class="mt-4 bg-yellow-700 text-white px-6 py-2 rounded-lg font-bold hover:bg-yellow-800 transition">Ver habitaciones</a>
+      </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section class="max-w-5xl mx-auto py-10 px-4">
+      <h2 class="text-2xl font-bold text-yellow-900 mb-6 text-center">Nuestros Servicios</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">🍳</span>
+          <span class="font-semibold text-yellow-900">Desayuno Incluido</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">📶</span>
+          <span class="font-semibold text-yellow-900">WiFi Gratis</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">🅿️</span>
+          <span class="font-semibold text-yellow-900">Estacionamiento</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">🛏️</span>
+          <span class="font-semibold text-yellow-900">Habitaciones Familiares</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section class="max-w-5xl mx-auto py-10 px-4">
+      <h2 class="text-2xl font-bold text-yellow-900 mb-6 text-center">Lo que dicen nuestros huéspedes</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow p-4">
+          <p class="text-yellow-800 mb-2">"¡Excelente atención y habitaciones muy cómodas! Volveré sin dudarlo."</p>
+          <span class="font-semibold text-yellow-900">- María G.</span>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <p class="text-yellow-800 mb-2">"La ubicación es perfecta y el desayuno delicioso."</p>
+          <span class="font-semibold text-yellow-900">- Luis P.</span>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <p class="text-yellow-800 mb-2">"Ideal para familias, nos sentimos como en casa."</p>
+          <span class="font-semibold text-yellow-900">- Andrea R.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de ubicación -->
+    <section class="max-w-5xl mx-auto py-10 px-4 flex flex-col md:flex-row items-center gap-8">
+      <iframe 
+        class="rounded-2xl shadow w-full md:w-1/2 h-64"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-71.9781%2C-13.5226%2C-71.9771%2C-13.5216&amp;layer=mapnik&amp;marker=-13.5221,-71.9776"
+        style="border:1px solid #ccc"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      <div class="flex flex-col items-center md:items-start">
+        <h2 class="text-2xl font-bold text-yellow-900 mb-2">¿Dónde estamos?</h2>
+        <p class="text-yellow-800 mb-4">Calle Alabado 523, Cusco, Perú</p>
+        <a href="https://wa.me/51900564785" target="_blank" class="bg-green-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-green-700 transition flex items-center gap-2">
+          <span>💬</span> WhatsApp
+        </a>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -98,5 +168,6 @@
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/buscar-fechas.js"></script>
 </body>
 </html>
